@@ -1,0 +1,103 @@
+body,html {
+	height      : 100%;
+	margin      : 0;
+	font-family : 'Lato', sans-serif; font-weight: 400;
+	font-size   : 15px;
+	color       : #808080;
+	line-height : 1.2em;
+}
+
+h1 {
+	font-family : 'Lato', sans-serif; font-weight: 600;
+	font-size: 55px;
+	line-height: 58px;
+	color : #f3c965;
+	margin : 0 0 10px 0;
+}
+
+h2 {
+	font-family : 'Lato', sans-serif; font-weight: 600;
+	font-size: 21px;
+	color : #f38065;
+	margin : 10px 0;
+}
+
+p.slogan {
+	font-weight: 400;
+	font-size: 25px;
+	line-height: 34px;
+	color : #adadad;
+	margin : 0;
+	padding-top: 10px;
+}
+
+header {
+	background    : transparent;
+	margin-bottom : 50px;
+}
+
+.row-margin {
+	margin: 50px 0;
+}
+
+.ribbon-header {
+	text-align: center;
+}
+
+.logo-ribbon {
+	display: inline-block;
+	max-width: 180px;
+}
+
+.hero {
+	margin: 20px 0 80px 0;
+	text-align: center;
+}
+
+button {
+	background-color: #f3c865;
+	display: inline-block;
+	color: #ffffff;
+	font-family : 'Lato', sans-serif; font-weight: 600;
+	font-size: 1em;
+	line-height: 1.5em;
+	padding: 6px 15px;
+	margin-top: 20px;
+	border : 0;
+	text-decoration: none; 
+	text-transform: uppercase;
+	float: right;  
+}
+
+button:hover {    
+    background-color: #f38065;
+}
+
+.newsletter {
+	background-color: #e6e6e6;
+	border: 0;
+	color: #999999;
+	font-family : 'Lato', sans-serif; font-weight: 600;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: ;
+	padding: 1px;
+}
+
+
+
+
+@media only screen and (max-width : 756px) {
+
+  .left {
+    display : none;
+  }
+
+  button {
+  	display: none;
+  }
+
+  .desktop-break {
+  	display : none;
+  }
+}
