@@ -19,7 +19,10 @@ h2 {
 	font-family : 'Lato', sans-serif; font-weight: 600;
 	font-size: 21px;
 	color : #f38065;
-	margin : 10px 0;
+	margin : 0;
+	vertical-align: middle;
+	padding-left: 5px;
+	display: inline;
 }
 
 a {
@@ -53,13 +56,17 @@ p.slogan {
 	padding-top: 10px;
 }
 
+p.more-info {
+	padding-top : 15px;
+}
+
 header {
 	background    : transparent;
-	margin-bottom : 50px;
+	margin-bottom : 60px;
 }
 
 .row-margin {
-	margin: 50px 0;
+	margin: 60px 0;
 }
 
 .ribbon-header {
@@ -72,8 +79,23 @@ header {
 }
 
 .hero {
-	padding: 20px 0 80px 0;
+	padding: 30px 0 90px 0;
 	text-align: center;
+}
+
+.signup {
+	padding: 30px 0 90px 0;
+	text-align: center;
+}
+
+.link-div {
+	text-align: center;
+}
+
+.link-icon {
+	max-width: 40px;
+	display: inline-block;
+	padding: 30px 0 90px 0;
 }
 
 button {
@@ -98,25 +120,45 @@ button:hover {
     background-color: #f38065;
 }
 
-.newsletter {
-	background-color: #e6e6e6;
+#newsletter-EMAIL {
+	background-color: #f0f0f0;
+	width: 365px;
 	border: 0;
-	color: #999999;
+	padding: 8px 0 8px 8px;
+}
+
+input#newsletter-subscribe {
+	background-color: #c2c2c2;
+	display: inline-block;
+	color: #ffffff;
 	font-family : 'Lato', sans-serif; font-weight: 600;
-	font-size: 16px;
-	font-style: normal;
-	font-weight: ;
-	padding: 1px;
+	font-size: 1em;
+	line-height: 1.5em;
+	margin-left: 5px;
+	padding: 6px 15px;
+	border : 0;
+	-moz-border-radius:3px;
+    -webkit-border-radius:3px;
+    border-radius:3px;
+	text-decoration: none; 
+	text-transform: uppercase;
+}
+
+input#newsletter-subscribe:hover {    
+    background-color: #f38065;
+}
+
+.about-icons {
+	max-width: 27px;
+	display: inline;
 }
 
 footer {
 	width: 100%;
 	margin-top: 50px;
-	padding: 20px 0;
+	padding: 40px 0;
 	text-align: center;
 }
-
-
 
 
 @media only screen and (max-width : 756px) {
