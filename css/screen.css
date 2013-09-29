@@ -1,7 +1,7 @@
 body,html {
 	height      : 100%;
 	margin      : 0;
-	font-family : 'Lato', sans-serif; font-weight: 400;
+	font-family : 'Lato', sans-serif; font-weight: 300;
 	font-size   : 15px;
 	color       : #808080;
 	line-height : 1.2em;
@@ -37,8 +37,15 @@ a:visited {
 	text-decoration: none;
 }
 
+p {
+	font-family : 'Lato', sans-serif; font-weight: 400;
+	font-size   : 15px;
+	color       : #8e8e8e;
+	line-height : 1.5em;
+}
+
 p.slogan {
-	font-weight: 400;
+	font-weight: 300;
 	font-size: 25px;
 	line-height: 34px;
 	color : #adadad;
@@ -79,6 +86,9 @@ button {
 	padding: 6px 15px;
 	margin-top: 20px;
 	border : 0;
+	-moz-border-radius:3px;
+    -webkit-border-radius:3px;
+    border-radius:3px;
 	text-decoration: none; 
 	text-transform: uppercase;
 	float: right;  
