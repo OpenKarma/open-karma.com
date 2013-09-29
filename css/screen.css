@@ -174,4 +174,16 @@ footer {
   .desktop-break {
   	display : none;
   }
+
+  input#newsletter-subscribe {
+  	margin-top : 20px;
+  }
+
+  .link-div {
+  	display: none;
+  }
+
+  .mobile-padding {
+  	padding-top : 60px;
+  }
 }
