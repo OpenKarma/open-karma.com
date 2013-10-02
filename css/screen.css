@@ -152,6 +152,20 @@ input#newsletter-subscribe:hover {
 	max-width: 27px;
 	display: inline;
 }
+#social {
+  margin: 50px 0 0 0;
+  text-align: center;
+}
+#social li {display: inline-block;}
+#social li a {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  text-indent: -9999px;
+  background: url(/img/social.png) 0 0 no-repeat;
+}
+#social li.fb a { background-position: -100px 0; }
+#social li.gp a { background-position: -50px 0; }
 
 footer {
 	width: 100%;
